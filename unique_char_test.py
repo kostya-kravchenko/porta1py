@@ -25,7 +25,7 @@ test_data = [("e",
 
 
 @pytest.mark.parametrize("expected, test_input", test_data)
-def test_eval(expected, test_input):
+def test_unique_char(expected, test_input):
     assert find_unique_ch(test_input) == expected
 
 
